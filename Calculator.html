@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Calculator.css" type="text/css">
+    <script src="Calculator.js"></script>
+    
+</head>
+<body>
+    <div class="display">   </div>
+    <p id="output">0</p>
+    
+    <div class="first-row"> </div>
+    <button id="C" onclick="clear()" style="width: 104px">C</button>
+   <button id="%" onclick="percentage()">%</button>
+   <button id="/" onclick="forDisplay('/') ">/</button>
+</div>
+    <div class="second-row">
+    <button id="7" value="7"  onclick="forDisplay('7') " >7</button>
+    <button id="8" value="8"  onclick="forDisplay('8') " >8</button>
+    <button id="9" value="9"  onclick="forDisplay('9') " >9</button>
+    <button id="*" onclick="forDisplay('*') ">*</button>
+         </div>
+     <div class="third-row">
+    <button id="4" value="4"  onclick="forDisplay('4') " >4</button>
+    <button id="5" value="5"  onclick="forDisplay('5') " >5</button>
+    <button id="6" value="6"  onclick="forDisplay('6') " >6</button>
+    <button id="-" onclick="forDisplay('-') " >-</button>
+        </div>
+     <div class="fourth-row">
+    <button id="1" value="1"  onclick="forDisplay('1') "  >1</button>
+    <button id="2" value="2"  onclick="forDisplay('2') "  >2</button>
+    <button id="3" value="3"  onclick="forDisplay('3') "  >3</button>
+    <button id="+" onclick="forDisplay('+') "  >+</button>
+         </div>
+    <div class="fifth-row">
+   <button id="0" style="width: 104px" >0</button>
+   <button id="." >.</button>
+   <button id="=" value="=" onclick="solve()" >=</button>
+        </div>
+    
+</body>
+</html>
